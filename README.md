@@ -1,4 +1,4 @@
-## Running this project
+## Running this project!
 
 1. Create a virtual environment by executing the following command in the terminal:
     - Unix/macOS: `python3 -m venv env-name`
