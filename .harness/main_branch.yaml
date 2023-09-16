@@ -1,0 +1,15 @@
+inputSet:
+  name: main branch
+  identifier: main_branch
+  orgIdentifier: default
+  projectIdentifier: Laura_Test
+  pipeline:
+    identifier: fastAPI_test_demo
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
+  object Object: pipeline.properties.ci.codebase
